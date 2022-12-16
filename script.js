@@ -131,7 +131,7 @@ function getAnimals() {
 
     };
 
-    xhttp.open("GET", "http://shibe.online/api/" + output + "?count=" + num + "&urls=true&httpsUrls=true");
+    xhttp.open("GET", "https://shibe.online/api/" + output + "?count=" + num + "&urls=true&httpsUrls=true");
     xhttp.send();
 
     document.getElementById("gallery-input-number").value = "";
